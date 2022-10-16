@@ -1,0 +1,44 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 16 Oct 2022 05:49:28 at https://www.mahindra.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.mahindra.com/ -O1 "C:\10Intership\mahendra manfucarure" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+05:49:57	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/resources/images/favicon.ico
+05:50:05	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.mahindra.com/)
+05:51:54	Error: 	Exit requested by shell or user
+05:51:58	Warning: 	File not added due to mirror cancel: www.mahindra.com/robots.txt
+05:51:58	Warning: 	Moved Permanently for www.mahindra.com/investors/
+05:51:58	Warning: 	Redirected link is identical because of 'URL Hack' option: www.mahindra.com/investors/ and https://www.mahindra.com/investors/
+05:51:58	Warning: 	File has moved from www.mahindra.com/investors/ to https://www.mahindra.com/investors/
+05:51:59	Error: 	"Not Found" (404) at link https://www.mahindra.com/assets/chatbot/css/fonts/Trebuchet MS.ttf (from https://www.mahindra.com/assets/chatbot/css/botchat.css)
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/fontawesome-webfont.eot?v=4.2.0
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/fontawesome-webfont.eot?
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/fontawesome-webfont.woff?v=4.2.0
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/fontawesome-webfont.ttf?v=4.2.0
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/EurostileLTStd.eot
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/EurostileLTStd.woff2
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/EurostileLTStd.woff
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/EurostileLTStd.ttf
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/EurostileLTStdBold.eot
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/EurostileLTStdBold.woff2
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/EurostileLTStdBold.woff
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/EurostileLTStdBold.ttf
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/cheddar_jack-webfont.eot
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/cheddar_jack-webfont.eot?
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/cheddar_jack-webfont.woff2
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/cheddar_jack-webfont.woff
+05:51:59	Warning: 	File not parsed, looks like binary: https://www.mahindra.com/assets/fonts/cheddar_jack-webfont.ttf
+05:51:59	Error: 	"Not Found" (404) at link https://www.mahindra.com/assets/fonts/glyphicons-halflings-regular.eot (from https://www.mahindra.com/assets/css/bootstrap.min.css)
+05:51:59	Error: 	"Not Found" (404) at link https://www.mahindra.com/assets/fonts/glyphicons-halflings-regular.eot? (from https://www.mahindra.com/assets/css/bootstrap.min.css)
+05:51:59	Error: 	"Not Found" (404) at link https://www.mahindra.com/assets/fonts/glyphicons-halflings-regular.woff2 (from https://www.mahindra.com/assets/css/bootstrap.min.css)
+05:51:59	Error: 	"Not Found" (404) at link https://www.mahindra.com/assets/fonts/glyphicons-halflings-regular.woff (from https://www.mahindra.com/assets/css/bootstrap.min.css)
+05:51:59	Error: 	"Not Found" (404) at link https://www.mahindra.com/assets/fonts/glyphicons-halflings-regular.ttf (from https://www.mahindra.com/assets/css/bootstrap.min.css)
+05:52:00	Error: 	"Not Found" (404) at link https://www.mahindra.com/assets/fonts/glyphicons-halflings-regular.svg (from https://www.mahindra.com/assets/css/bootstrap.min.css)
+05:52:00	Error: 	"Not Found" (404) at link https://www.mahindra.com/assets/img/cd-arrows.png (from https://www.mahindra.com/assets/css/divider.min.css)
+05:52:00	Error: 	"Not Found" (404) at link https://www.mahindra.com/assets/css/owl.video.play.png (from https://www.mahindra.com/assets/css/owl.carousel.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 17 seconds : 325 links scanned, 312 files written (263610024 bytes overall) [259780951 bytes received at 1318685 bytes/sec], 9903754 bytes transferred using HTTP compression in 101 files, ratio 58%, 29.5 requests per connection
+(11 errors, 22 warnings, 0 messages)

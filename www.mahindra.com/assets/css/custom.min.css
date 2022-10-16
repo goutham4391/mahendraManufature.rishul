@@ -1,0 +1,266 @@
+html{overflow-x:hidden}
+body{font-family:"Open Sans",sans-serif;background-color:#fff;overflow-x:hidden}
+h1,h2,h3,h4,h5,p{margin:0;padding:0}
+.animated01{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+.default-container{position:relative;z-index:2;overflow:hidden}
+.inner-container{width:1140px;margin:0 auto;display:block;position:relative}
+.bg-grey{background-color:#333}
+.bg-grey-light{background-color:#ebecee}
+.bg-grey-two{background-color:#f3f4f5}
+.bg-grey-three{background-color:#494949}
+.txt-white{color:#fff!important}
+.banner-container{z-index:2;position:relative;width:1140px;margin:0 auto}
+.section-banner{background-repeat:no-repeat;background-size:cover;background-position:100% 0;min-height:640px;position:relative;width:100%}
+.section-banner.banner-video{height:570px}
+.section-banner.banner-video video{width:100%;object-fit:cover}
+.section-banner.banner-video video.hero-mobile{display:none!important}
+.section-banner.mh-color-white{color:#fff}
+.section-banner.mh-color-black{color:#000}
+.section-banner.mh-color-black:after{content:" ";position:absolute;width:100%;height:100%;background-color:rgba(255,255,255,.4);top:0;bottom:0;margin:auto;left:0;right:0;z-index:1}
+.banner-txt01{padding-top:150px;width:630px}
+.banner-txt02{padding-top:220px}
+.banner-txt03{padding-top:220px}
+.section-banner p{font-family:Arial;font-size:17px;line-height:30px;text-align:center;width:580px;margin:0 auto}
+.section-banner .banner-heading01{font-family:EurostileLTStdBold;font-size:50px;line-height:60px}
+.section-banner .banner-heading01 span{font-family:EurostileLTStdBold;font-size:100px;color:#e31837;text-align:center;display:block;clear:both;text-transform:uppercase}
+.section-banner .banner-subheading01{font-size:60px;font-family:cheddar_jackregular;margin-bottom:30px;height:58px}
+.section-banner .banner-paraheading01{text-align:left;margin:0 0 30px}
+.section-banner .banner-heading02{font-family:cheddar_jackregular;font-size:78px;line-height:90px;text-align:center}
+.section-banner .banner-heading02 span{font-family:EurostileLTStdBold;font-size:100px;color:#e31837;text-align:center;clear:both;text-transform:uppercase}
+.section-banner .banner-heading03{font-family:cheddar_jackregular;font-size:78px;line-height:90px;text-align:center;margin:auto}
+.section-banner .banner-heading03 span{font-family:EurostileLTStdBold;font-size:60px;color:#e31837;text-transform:uppercase}
+.section-banner .banner-paraheading02{text-align:center;width:580px;margin:0 0 30px}
+.section-banner .banner-subheading04{font-family:EurostileLTStd;font-size:22px;line-height:30px;text-transform:uppercase;text-align:center}
+.banner-animate .bg-txt{background-color:#e31837;font-family:EurostileLTStdBold;font-size:50px;padding:13px 10px;display:inline-block;line-height:36px;height:auto;color:#fff}
+.know-more-btn{width:170px;display:block;font-family:EurostileLTStd;font-weight:700;letter-spacing:1.5px;padding:15px 0;text-transform:uppercase;font-size:14px;text-align:center;background-color:#fff;color:#f3343f;position:relative}
+.section-banner.mh-color-black .know-more-btn{background-color:#f3343f;color:#fff}
+.section-banner.mh-color-white .know-more-btn{background-color:#fff;color:#f3343f}
+.banner-play{display:block;margin:20px auto 0;text-align:center}
+.banner-carousel .carousel-control{display:block;background-image:none;top:52%;bottom:auto;width:65px;opacity:1;visibility:hidden;transition:all .3s}
+.banner-carousel .carousel-control img{width:100%;transition:all .5s}
+.banner-carousel .carousel-control:hover img{filter:grayscale(20%)}
+.banner-carousel .carousel-control.left{left:-70px}
+.banner-carousel .carousel-control.right{right:-70px}
+.banner-carousel:hover .carousel-control{visibility:visible}
+.banner-carousel:hover .carousel-control.left{left:-20px}
+.banner-carousel:hover .carousel-control.right{right:-20px}
+.banner-content-left{float:left}
+.banner-content-right{float:right}
+.banner-content-center{float:none;margin:0 auto;display:block}
+.section-banner .banner-content-center .banner-heading01,.section-banner .banner-content-center .banner-heading01 span,.section-banner .banner-content-center .banner-paraheading01,.section-banner .banner-content-center .banner-subheading01{text-align:center}
+.section-banner .banner-content-center .know-more-btn{margin:0 auto}
+.section-banner .banner-content-center p{margin:0 auto 30px}
+.inner-container{width:1140px;margin:0 auto;position:relative}
+.header-animation{min-height:70px;position:relative;display:block;float:left;width:100%}
+.header-animation.dbl-line{min-height:135px}
+.sub-header{font-family:EurostileLTStdBold;color:#e31837;font-size:46px;line-height:50px;margin-bottom:15px}
+.sub-header-prefix{font-family:cheddar_jackregular;color:#000;font-size:50px;line-height:60px;padding-right:10px}
+.para-cm{font-size:16px;line-height:26px;font-family:Arial}
+.carousel-fade .carousel-inner .item{transition-property:opacity}
+.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right,.carousel-fade .carousel-inner .item{opacity:0}
+.carousel-fade .carousel-inner .active,.carousel-fade .carousel-inner .next.left,.carousel-fade .carousel-inner .prev.right{opacity:1}
+.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right,.carousel-fade .carousel-inner .next,.carousel-fade .carousel-inner .prev{left:0;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+.carousel-fade .carousel-control{z-index:2}
+.timeline-div .panel.panel-default .panel-title a{color:#ccc}
+.timeline-div .panel.panel-default .panel-title a.collapsed{color:#999}
+.carousel-leaders .owl-item .img-holder:before{content:" ";position:absolute;top:0;left:0;margin:auto;background-color:rgba(0,0,0,.5);width:100%;height:100%;z-index:1}
+.carousel-leaders .owl-item.center .img-holder:before{content:" ";position:absolute;top:0;left:0;margin:auto;background-color:rgba(0,0,0,0);width:100%;height:100%;z-index:2}
+#contact-us .cnt-block .link-txt:hover{color:#fff}
+.lity-close{position:absolute}
+.custom-tweet{width:100%;height:100%;padding:50px 30px 0}
+.custom-tweet ul{list-style-type:none;padding:0;margin:0}
+.custom-tweet ul li{display:table;margin-bottom:25px}
+.custom-tweet ul li:last-child{margin-bottom:0}
+.twitter-img{width:auto;float:left}
+.twitter-txt{float:left;width:84%;padding-left:10px}
+.twitter-name{font-family:Arial;font-size:12px;line-height:12px;font-weight:700;color:#000}
+.twitter-name span{font-weight:300}
+.twitter-time{font-style:italic;font-size:12px;line-height:20px;font-family:Arial;color:#999;display:block}
+.twitter-para{font-size:12px;line-height:14px;font-family:Arial;color:#000}
+.feed-block3 .know-more-txt{width:120px;display:block;margin:20px 30px 30px 0}
+.investor-tab-grid{background-color:#333;transition:top .3s ease-in}
+.investor-tab-block{width:auto;margin:0 auto;padding:0;display:table;list-style-type:none;text-align:center}
+.investor-tab-block li{width:auto;display:inline-block;padding:25px 40px;text-align:center;float:left}
+.investor-tab-block li:first-child{padding-left:0}
+.investor-tab-block li:last-child{padding-right:0}
+.investor-tab-block li a{font-family:EurostileLTStd;font-weight:500;color:#fff;text-align:center;position:relative}
+.investor-tab-block li a:hover{opacity:1!important;color:#ea333e}
+.investor-tab-block li a.active-link{opacity:1}
+.investor-tab-block li a.active-link:after{position:absolute;content:" ";width:100%;height:3px;background-color:#ea333e;bottom:-26px;left:0}
+.sticky{position:fixed;top:46px;left:0;z-index:999;width:100%}
+.mob-investor-tab{display:none}
+.mob-investor-tab-dropdown{width:100%;position:relative}
+.mob-dropbtn{color:#fff;font-family:EurostileLTStd;font-size:18px;line-height:30px;width:100%;border:0;border-bottom:1px solid #717171;background-color:transparent;outline:0}
+.mob-dropbtn:focus,.mob-dropbtn:hover{outline:0}
+.mob-dropbtn{position:relative;display:inline-block}
+.dropdown-content{display:none;position:absolute;background-color:#fff;width:100%;top:35px;z-index:100;padding:5px 20px;transition:all .3s ease-in}
+.dropdown-content a{margin:0;padding:15px 0;text-decoration:none;display:block;text-decoration:none;color:#717171;font-family:EurostileLTStd;font-size:16px;line-height:24px;border-bottom:1px solid #e1e1e1}
+.dropdown-content a:last-child{border-bottom:none}
+.mob-dropbtn a:hover{opacity:.5;font-weight:700}
+.show-mob{display:block}
+.mob-investor-tab-dropdown::after{border-color:#717171 transparent;border-style:solid;border-width:6px 6px 0;content:" ";height:0;margin-top:-4px;position:absolute;right:9px;top:50%;width:0;z-index:1}
+.mob-investor-tab-dropdown.ddl-arrow::after{border-color:#717171 transparent;border-style:solid;border-width:0 6px 6px;content:" ";height:0;margin-top:-4px;position:absolute;right:9px;top:50%;width:0;z-index:1}
+.investor-search-section.overview-filter{background-color:#494949;padding:18px 30px;width:930px;height:92px;display:block;position:absolute;bottom:190px;left:0;right:0;margin:auto}
+.investor-search-section.fh-filter{background-color:#494949;padding:18px 30px;width:1140px;height:92px;display:block;position:absolute;top:54px;left:0;right:0;margin:auto;z-index:99}
+.investor-search-section.od-filter{background-color:#494949;padding:18px 30px;width:100%;height:92px;display:block;position:relative;margin:0 auto 0;z-index:99}
+.investor-search-block{width:100%;display:table;margin:0 auto;padding:0;list-style:none}
+.investor-search-section.fh-filter .investor-search-block{width:930px;display:table;margin:0 auto;padding:0;list-style:none}
+.investor-search-section.od-filter .investor-search-block{width:930px;display:table;margin:0 auto;padding:0;list-style:none}
+.investor-search-block .filter-block{padding:5px 0;border-left:1px solid #717171;float:left}
+.investor-search-block .filter-block{width:310px;position:relative;cursor:pointer}
+.investor-search-block .filter-block:nth-child(1){border-left:none;padding-left:0}
+.investor-search-block>li{float:left;padding-right:25px;position:relative}
+.investor-search-block>li:nth-child(1){padding-right:60px}
+.investor-search-block>li:last-child{padding-right:0}
+.investor-search-block>li:nth-child(1)::after{content:"";position:absolute;z-index:2;right:30px;height:62px;width:1px;background-color:#717171}
+.investor-search-block .label-filter{font-family:EurostileLTStd;font-weight:600;text-transform:uppercase;color:#fff;font-size:13px;line-height:14px;margin-bottom:10px;letter-spacing:1px}
+.investor-search-block .wrap-drop .drop li{display:block;padding:0 10px;text-decoration:none;color:#717171;font-family:EurostileLTStd;font-size:16px;line-height:24px;transition:all .3s ease-in}
+.investor-search-block .wrap-drop .drop{background:#fff;box-shadow:3px 3px 3px rgba(0,0,0,.2);display:none;left:0;list-style:none;margin-top:0;opacity:0;padding-left:0;pointer-events:none;position:absolute;right:0;top:100%;z-index:3;margin:0 20px;width:89%;max-height:250px;overflow:auto}
+.investor-search-block .wrap-drop .drop li:last-child{border-bottom:none}
+.investor-search-block .wrap-drop .drop li button{background-color:transparent;border:none;width:100%;text-align:left;border-bottom:1px solid #e1e1e1;padding:12px 0}
+.investor-search-block .wrap-drop .drop li:last-child button{border-bottom:0}
+.investor-search-block .wrap-drop .drop li:hover{opacity:.5}
+.investor-search-block .wrap-drop.active .drop{display:block;opacity:1;pointer-events:auto}
+.investor-search-block .wrap-drop.is-disabled span{color:#707070}
+.investor-search-block .wrap-drop.is-disabled::after{border-color:#707070 transparent}
+.investor-search-block .wrap-drop::after{border-color:#717171 transparent;border-style:solid;border-width:6px 6px 0;content:" ";height:0;margin-top:-4px;position:absolute;right:10px;top:64%;width:0}
+.investor-search-block .wrap-drop.active::after{border-width:0 6px 6px}
+.investor-search-block .wrap-drop span{color:#0e928d;color:#fff;font-family:EurostileLTStd;font-size:15px;line-height:22px;height:25px;float:left;width:100%;border-bottom:1px solid #717171}
+.cmn-search-btn{font-family:EurostileLTStd;font-weight:600;font-size:13px;border:solid 1px #b7b7b7;background-color:transparent;font-style:normal;font-stretch:normal;letter-spacing:.4px;text-align:center;color:#fff;padding:15px 40px;text-transform:uppercase;transition:all .3s ease-in;display:inline-block;margin-top:2px}
+.cmn-search-btn:active,.cmn-search-btn:focus,.cmn-search-btn:hover{color:#fff;opacity:.7!important}
+.para-desktop{display:block}
+.para-mobile{display:none}
+@media (max-width:1440px){
+.section-banner{min-height:490px}
+.banner-carousel .carousel-control{top:54%}
+.investor-search-section.overview-filter{bottom:72px}
+}
+@media (max-width:1024px){
+.inner-container{width:100%;margin:0 auto}
+.section-banner{min-height:395px}
+.banner-container{width:100%;margin:0 auto;padding:0 50px}
+.section-banner .banner-heading01{font-size:40px;line-height:40px}
+.section-banner .banner-subheading01{font-size:50px;margin-bottom:15px}
+.section-banner .bg-txt{font-size:40px}
+.banner-txt02{padding-top:150px}
+.section-banner .banner-heading02{font-size:56px;line-height:68px;height:130px}
+.section-banner .banner-heading02 span{font-size:52px}
+.banner-txt03{padding-top:150px}
+.section-banner .banner-heading03{font-size:56px;line-height:68px}
+.section-banner .banner-heading03 span{font-size:52px}
+.section-banner p{width:100%}
+.sticky{top:90px}
+.twitter-txt{width:80%}
+.investor-tab-grid{overflow:auto;padding:0 40px}
+.investor-tab-block li{text-align:center;padding:25px 35px}
+.investor-search-section.fh-filter{width:748px}
+.banner-carousel .carousel-control{visibility:visible}
+.banner-carousel .carousel-control.left{left:-20px!important}
+.banner-carousel .carousel-control.right{right:-20px!important}
+}
+@media (max-width:768px){
+.header-animation{min-height:inherit;position:relative;display:block!important;animation-name:none}
+.header-animation.dbl-line{min-height:inherit}
+.sub-header{display:block!important;animation-name:none}
+.lity-close{position:fixed}
+.cd-vertical-nav{display:none!important}
+.sticky{top:46px}
+.investor-tab-block li{width:auto;padding:25px 30px 25px;text-align:left;float:left}
+.twitter-txt{width:85%}
+.investor-search-section.overview-filter{width:748px}
+.investor-financial-highlights .investor-search-section.fh-filter{top:64px}
+.investor-financial-reports-and-filings .investor-search-section.fh-filter{top:64px}
+.investor-search-section.fh-filter .investor-search-block{width:100%}
+.investor-search-section.od-filter .investor-search-block{width:100%}
+.investor-search-block .filter-block{width:218px}
+.investor-search-block .wrap-drop span{overflow:hidden}
+.other-filter .investor-search-block .filter-block{width:176px}
+.banner-carousel .carousel-control{width:55px}
+.banner-carousel .carousel-control.left{left:-18px!important}
+.banner-carousel .carousel-control.right{right:-18px!important}
+}
+@media (max-width:767px){
+.section-banner{background-position:100% 100%;min-height:370px}
+#banner-carousel{margin-top:45px}
+.section-banner.banner-video{height:370px}
+.section-banner.banner-video video.hero-desktop{display:none!important}
+.section-banner.banner-video video.hero-mobile{display:block!important}
+.banner-container{padding:0 40px;position:absolute;bottom:20px;left:0}
+.section-banner p{width:100%}
+.banner-txt01{padding-top:70px;width:100%}
+.section-banner .banner-heading01{font-size:28px;line-height:34px}
+.section-banner .banner-subheading01{font-size:28px;line-height:32px;margin-bottom:15px;height:auto}
+.section-banner .banner-heading02{font-size:34px;line-height:44px;height:75px}
+.section-banner .banner-heading02 span{font-size:36px}
+.section-banner .bg-txt{font-size:26px;padding:0 10px 0}
+.banner-txt03{padding-top:70px;width:100%}
+.section-banner .banner-heading03{font-size:34px;line-height:40px;height:84px}
+.section-banner .banner-heading03 span{font-size:36px}
+.section-banner p{margin:10px auto 0;padding:0;font-size:16px;line-height:26px}
+.know-more-btn{width:130px;padding:10px 0;font-size:12px;line-height:12px}
+.section-banner .banner-paraheading01{margin:0 0 25px}
+.section-banner .banner-content-center p{margin:0 auto 25px}
+.twitter-txt{width:77%}
+.investor-tab-block{display:none}
+.investor-tab-grid{padding:0 30px;overflow:initial}
+.mob-investor-tab{display:block;width:100%;padding:30px 0}
+.investor-search-section.overview-filter{width:100%;padding:30px 30px;height:auto;display:block;position:relative;bottom:auto;left:auto;right:auto;margin:auto}
+.investor-search-section.fh-filter{height:auto;width:100%;position:relative;top:-1px!important}
+.investor-search-block>li{padding-right:0!important;float:none!important;width:100%!important;display:inline-block;padding-bottom:20px}
+.investor-search-section.fh-filter .investor-search-block{display:block}
+.investor-search-block>li:nth-child(1)::after,.investor-search-section.od-filter .investor-search-block>li:nth-child(2)::after{display:none}
+.investor-search-block li:last-child{padding-bottom:0}
+.investor-search-block .filter-block{width:100%}
+.cmn-search-btn{display:block;width:165px;margin:0 auto}
+.other-filter .investor-search-block .filter-block{width:100%}
+.investor-search-section.od-filter{height:auto}
+.banner-carousel .carousel-control{width:40px;top:47%}
+.banner-carousel .carousel-control.left{left:-12px!important}
+.banner-carousel .carousel-control.right{right:-12px!important}
+.para-desktop{display:none}
+.para-mobile{display:block}
+}
+@media (max-width:480px){
+.section-banner{background-position:100% 100%;min-height:500px}
+.banner-container{padding:0 20px}
+.banner-container.mobile-text-top{position:absolute;top:-20px}
+.banner-container.mobile-text-mid{position:absolute;top:50px}
+.banner-txt01{padding-top:70px;width:100%}
+.section-banner .banner-heading01{font-size:28px;line-height:34px}
+.section-banner .banner-subheading01{font-size:28px;line-height:42px;margin-bottom:15px;height:auto}
+.section-banner .banner-heading02{font-size:34px;line-height:44px;height:75px}
+.section-banner .banner-heading02 span{font-size:36px}
+.section-banner .bg-txt{font-size:26px;padding:0 10px 0}
+.banner-txt03{padding-top:70px;width:100%}
+.section-banner .banner-heading03{font-size:34px;line-height:40px;height:84px}
+.section-banner .banner-heading03 span{font-size:36px}
+.section-banner p{margin:10px auto 0;padding:0;font-size:16px;line-height:26px}
+.know-more-btn{width:130px;padding:10px 0;font-size:12px;line-height:12px}
+.twitter-txt{width:77%}
+.investor-tab-block{display:none}
+.investor-tab-grid{padding:0 30px;overflow:initial}
+.mob-investor-tab{display:block;width:100%;padding:30px 0}
+.investor-search-section.overview-filter{width:100%;padding:30px 30px;height:auto;display:block;position:relative;bottom:auto;left:auto;right:auto;margin:auto}
+.investor-search-section.fh-filter{height:auto;width:100%;position:relative;top:-1px!important}
+.investor-search-block>li{padding-right:0!important;float:none!important;width:100%!important;display:inline-block;padding-bottom:20px}
+.investor-search-section.fh-filter .investor-search-block{display:block}
+.investor-search-block>li:nth-child(1)::after,.investor-search-section.od-filter .investor-search-block>li:nth-child(2)::after{display:none}
+.investor-search-block li:last-child{padding-bottom:0}
+.investor-search-block .filter-block{width:100%}
+.cmn-search-btn{display:block;width:165px;margin:0 auto}
+.other-filter .investor-search-block .filter-block{width:100%}
+.investor-search-section.od-filter{height:auto}
+.banner-carousel .carousel-control{width:35px;top:47%}
+.banner-carousel .carousel-control.left{left:-12px!important}
+.banner-carousel .carousel-control.right{right:-12px!important}
+.para-desktop{display:none}
+.para-mobile{display:block}
+}
+@media (max-width:375px){
+.section-banner .banner-heading01{font-size:24px;line-height:28px}
+}
+@media (max-width:360px){
+.section-banner{background-position:0 100%}
+.section-banner .banner-heading01{font-size:23px;line-height:28px}
+.investor-tab-grid{padding:0 20px}
+}
